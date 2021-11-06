@@ -1,16 +1,15 @@
-# chatbot
+# Prague City Chatbot
 
-FIXME: description
+This chatbot can help you to find the best Prague City prague Who can give you according to your needs the parks most suited to your needs by answering our questions.
+
 
 ## Installation
 
-Download from http://example.com/FIXME.
+We have made use of Leiningen which contains part of some of the code and some of the data. 
 
 ## Usage
 
-FIXME: explanation
 
-    $ java -jar chatbot-0.1.0-standalone.jar [args]
 
 ## Options
 
