@@ -1,6 +1,6 @@
-# chatbot
+# Prague City University Chatbot
 
-FIXME: description
+This small application is developed to give a sample to "Prague municipality" regarding capabilities of a chatbot app.  The chatbot is collecting feedback from the user and offering information about a public parks.
 
 ## Installation
 
