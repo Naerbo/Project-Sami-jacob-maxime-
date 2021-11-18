@@ -4,9 +4,9 @@ You can use the [editor on GitHub](https://github.com/jereejack/Project-Sami-jac
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Prague City University Chatbot
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This small application is developed to give a sample to "Prague municipality" regarding capabilities of a chatbot app. The chatbot is collecting feedback from the user and offering information about a public parks.
 
 ```markdown
 Syntax highlighted code block
