@@ -3,9 +3,10 @@
 This chatbot we did ( Sami jeremy and maxime) for ""prague parks"" need to be used by tourist and prague citizen , to have a specific and useful view of what they can have or not in a park. 
 
 
-
-
 ## Usage
+We have used clojure to write this chatbot and you need to have install theses components :
+Leiningen
+A Command Line Interface (CLI)
 
 1) Write an ""Introduction line""
 2) Write your questions about the Park
