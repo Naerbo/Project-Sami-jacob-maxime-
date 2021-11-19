@@ -1,18 +1,18 @@
 # Prague City University Chatbot
 
-This chatbot we did ( Sami jeremy and maxime) for ""prague parks"" need to be used by tourist and prague citizen , to have a specific and useful view of what they can have or not in a park. 
+This chatbot is made by Sami, Jeremy and Maxim for "Prague Parks". Th It is made for tourists and Prague citizens to have useful info about parks in Prague. The chatbot can tell the user what different parks have and what can be done in them (ride bike, have a lunch etc.). This is the first part of the chatbot, that will be built upon in the next part of the project.
 
 
-## Usage
-We have used clojure to write this chatbot and you need to have install theses components :
+# Usage
+We have used clojure to write this chatbot and you need to install theses components :
 Leiningen
 A Command Line Interface (CLI)
 
-1) Write an ""Introduction line""
+1) Write an "Introduction line"
 2) Write your questions about the Park
-3) Write ""Finish"" to ""finish""
+3) Write "Finish" to end the chatbot
 
-## Exemple of use
+# Exemple of use
 
 ""Exemple of chatbot interactions""
 ""Exemple of human interaction""
@@ -21,12 +21,12 @@ A Command Line Interface (CLI)
 ""Exemple of chatbot interactions""
 ""Exemple of human interaction""
 
-## Options
+# Options
 
 FIXME: listing of options this app accepts.
 
 
-### Bugs 
+# Bugs 
 
 If you report bugs , thanks to write and report at ""some mails address""
 
