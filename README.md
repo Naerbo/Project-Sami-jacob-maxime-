@@ -1,32 +1,34 @@
 # Prague City University Chatbot
 
-This small application is developed to give a sample to "Prague municipality" regarding capabilities of a chatbot app.  The chatbot is collecting feedback from the user and offering information about a public parks.
+This chatbot we did ( Sami jeremy and maxime) for ""prague parks"" need to be used by tourist and prague citizen , to have a specific and useful view of what they can have or not in a park. 
 
-## Installation LOL
 
-Download from http://example.com/FIXME.
+
 
 ## Usage
 
-FIXME: explanation
+1) Write an ""Introduction line""
+2) Write your questions about the Park
+3) Write ""Finish"" to ""finish""
 
-    $ java -jar chatbot-0.1.0-standalone.jar [args]
+## Exemple of use
+
+""Exemple of chatbot interactions""
+""Exemple of human interaction""
+""Exemple of chatbot interactions""
+""Exemple of human interaction""
+""Exemple of chatbot interactions""
+""Exemple of human interaction""
 
 ## Options
 
 FIXME: listing of options this app accepts.
 
-## Examples
 
-...
+### Bugs 
 
-### Bugs
+If you report bugs , thanks to write and report at ""some mails address""
 
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
 
 ## License
 
