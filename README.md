@@ -5,30 +5,38 @@ This chatbot is made by Sami, Jeremy and Maxim for "Prague Parks". Th It is made
 
 ## Usage
 We have used clojure to write this chatbot and you need to install theses components :
-Leiningen
-A Command Line Interface (CLI)
+1) Leiningen
+2) A Command Line Interface (CLI)
 
 1) Write an "Introduction line"
 2) Write your questions about the Park
-3) Write "Finish" to end the chatbot
+3) Write "end" or "bye" to end the chatbot
 
 ## Exemple of use
+```
+Hello. What is your name?
 
-""Exemple of chatbot interactions""
-""Exemple of human interaction""
-""Exemple of chatbot interactions""
-""Exemple of human interaction""
-""Exemple of chatbot interactions""
-""Exemple of human interaction""
+Hello my name is Maxim
 
+Welcome maxim! How are you?
+
+I am fine, thanks
+
+I've information about Stromovka.
+
+Is there a playground?
+
+Yes
+...
+```
 ## Options
 
-FIXME: listing of options this app accepts.
+This chatbot knows only about park Stromovka and it's utilites
 
 
 ## Bugs 
 
-If you report bugs , thanks to write and report at ""some mails address""
+If you report bugs , thanks to write and report at bughere@fixme.com
 
 
 ## License
