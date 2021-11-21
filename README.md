@@ -5,8 +5,9 @@ This chatbot is made by Sami, Jeremy and Maxim for "Prague Parks". Th It is made
 
 ## Usage
 We have used clojure to write this chatbot and you need to install theses components :
-1) Leiningen
-2) A Command Line Interface (CLI)
+
+- Leiningen
+- A Command Line Interface (CLI)
 
 1) Write an "Introduction line"
 2) Write your questions about the Park
