@@ -3,16 +3,16 @@
 
 ; data
 
-(def stramovka {"hours": "Open all year around"
-                "playground": "Yes"
-                "refreshments": "Yes"
-                "food": "No"
-                "dogs": "Yes"
-                "restaurant": "Yes"
-                "biking": "Yes"
-                "skating": "Yes"
-                "toilet": "Yes"
-                "attractions": "zoo, botanical gardens, natural attractions, planetarium, exhibition grounds"})
+(def stramovka {"hours" "Open all year around"
+                "playground" "Yes"
+                "refreshments" "Yes"
+                "food" "No"
+                "dogs" "Yes"
+                "restaurant" "Yes"
+                "biking" "Yes"
+                "skating" "Yes"
+                "toilet" "Yes"
+                "attractions" "zoo, botanical gardens, natural attractions, planetarium, exhibition grounds"})
 
 (def parks{"stramovka" stramovka})
 
