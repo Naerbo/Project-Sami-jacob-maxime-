@@ -16,7 +16,7 @@
 
 (def parks{"stramovka" stramovka})
 
-(def users ['Jeremy', 'Sami', 'Maxim'])
+(def users ["Jeremy" "Sami" "Maxim"])
 
 ; helper functions 
 (defn read-line-with-prompt [prompt]
