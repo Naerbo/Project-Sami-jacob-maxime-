@@ -3,7 +3,7 @@
 
 ; data
 
-(def stramovka {"hours" "Open all year around"
+(def stromovka {"hours" "Open all year around"
                 "playground" "Yes"
                 "refreshments" "Yes"
                 "food" "No"
@@ -14,7 +14,7 @@
                 "toilet" "Yes"
                 "attractions" "zoo, botanical gardens, natural attractions, planetarium, exhibition grounds"})
 
-(def parks{"stramovka" stramovka})
+(def parks{"stromovka" stromovka})
 
 (def users ["Jeremy" "Sami" "Maxim"])
 
