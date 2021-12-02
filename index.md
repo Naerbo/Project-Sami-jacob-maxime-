@@ -2,34 +2,37 @@
 
 This chatbot is made by Sami, Jeremy and Maxim for "Prague Parks". Th It is made for tourists and Prague citizens to have useful info about parks in Prague. The chatbot can tell the user what different parks have and what can be done in them (ride bike, have a lunch etc.). This is the first part of the chatbot, that will be built upon in the next part of the project.
 
-## Usage
+
+## Installation and how to use the chatbot
 We have used clojure to write this chatbot and you need to install theses components :
 
 - Leiningen
 - A Command Line Interface (CLI)
+ 
+1) After you write Lein run the chatbot will automatically start
+2) On the first chatbot's question you should answer just with your name, because this name he will use later on
+3) The Second question have to contain word Stromovka as it is the only park the chatbot knows
+4) In the third question you can ask on these topics: opening hours, playground, refreshments, food, dogs, biking, skating, toilet and attractions
+5) If you want to exit the chatbot just write 'end' or 'bye'
 
-1) Write an "Introduction line"
-2) Write your questions about the Park
-3) Write "end" or "bye" to end the chatbot
-
-## Exemple of use
+## Exemple of the output
 ```
-Hello. What is your name?
+> Hello. What is your name?
 
-Hello my name is Maxim
+Maxim
 
-Welcome maxim! How are you?
+> Welcome back  Maxim ! How are you?
+> I've information about Stromovka.
 
-I am fine, thanks
+Stromovka
 
-I've information about Stromovka.
+> What do you want to know about the park?
 
-Is there a playground?
+are dogs allowed
 
-Yes
+> For dogs : yes pets are allowed at the park
 ...
 ```
-
 ## Options
 
 This chatbot knows only about park Stromovka and it's utilites
@@ -54,8 +57,3 @@ Public License, v. 2.0 are satisfied: GNU General Public License as published by
 the Free Software Foundation, either version 2 of the License, or (at your
 option) any later version, with the GNU Classpath Exception which is available
 at https://www.gnu.org/software/classpath/license.html.
-
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
