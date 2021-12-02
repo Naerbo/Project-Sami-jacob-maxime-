@@ -3,33 +3,34 @@
 This chatbot is made by Sami, Jeremy and Maxim for "Prague Parks". Th It is made for tourists and Prague citizens to have useful info about parks in Prague. The chatbot can tell the user what different parks have and what can be done in them (ride bike, have a lunch etc.). This is the first part of the chatbot, that will be built upon in the next part of the project.
 
 
-## Usage
+## Installation and how to use the chatbot
 We have used clojure to write this chatbot and you need to install theses components :
 
 - Leiningen
 - A Command Line Interface (CLI)
+ 
+1) After you write Lein run the chatbot will automatically start
+2) On the first chatbot's question you should answer just with your name, because this name he will use later on
+3) The Second question have to contain word Stromovka as it is the only park the chatbot knows
+4) In the third question you can ask on these topics: opening hours, playground, refreshments, food, dogs, biking, skating, toilet and attractions
+5) If you want to exit the chatbot just write 'end' or 'bye'
 
-1) Write an "Introduction line"
-2) Write your questions about the Park
-3) Write "end" or "bye" to end the chatbot
-
-## Exemple of use
+## Exemple of the output
 ```
-Hello. What is your name?
+> Hello. What is your name?
 
 Maxim
 
-Welcome back  Maxim ! How are you?
+> Welcome back  Maxim ! How are you?
+> I've information about Stromovka.
 
-I've information about Stramovka.
+Stromovka
 
-Stramovka
-
-What do you want to know about the park?
+> What do you want to know about the park?
 
 are dogs allowed
 
-For dogs : yes pets are allowed at the park
+> For dogs : yes pets are allowed at the park
 ...
 ```
 ## Options
