@@ -27,7 +27,7 @@
     (System/exit 0)))
 
 (defn remove-punctuation [word]
-  (clojure.string/replace word #"(?i)[^\w']+" " ")
+  (clojure.string/replace word #"(?i)" " ")
   (clojure.string/lower-case word))
 
 ; main/answering user questions
