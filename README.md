@@ -1,6 +1,6 @@
 # Prague City University Chatbot
 
-This chatbot is made by Sami, Jeremy and Maxim for "Prague Parks". Th It is made for tourists and Prague citizens to have useful info about parks in Prague. The chatbot can tell the user what different parks have and what can be done in them (ride bike, have a lunch etc.). This is the first part of the chatbot, that will be built upon in the next part of the project.
+This chatbot is made by Sami, Jeremy and Maxim for "Prague Parks". It is made for tourists and Prague citizens to have useful info about parks in Prague. The chatbot can tell the user what different parks have and what can be done in them (ride bike, have a lunch etc.). This is the first part of the chatbot, that will be built upon in the next part of the project.
 
 
 ## Installation and how to use the chatbot
