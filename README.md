@@ -17,17 +17,19 @@ We have used clojure to write this chatbot and you need to install theses compon
 ```
 Hello. What is your name?
 
-Hello my name is Maxim
+Maxim
 
-Welcome maxim! How are you?
+Welcome back  Maxim ! How are you?
 
-I am fine, thanks
+I've information about Stramovka.
 
-I've information about Stromovka.
+Stramovka
 
-Is there a playground?
+What do you want to know about the park?
 
-Yes
+are dogs allowed
+
+For dogs : yes pets are allowed at the park
 ...
 ```
 ## Options
