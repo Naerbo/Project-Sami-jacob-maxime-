@@ -9,11 +9,11 @@ We have used clojure to write this chatbot and you need to install theses compon
 - Leiningen
 - A Command Line Interface (CLI)
  
-1) After you write Lein run the chatbot will automatically start
-2) On the first chatbot's question you should answer just with your name, because this name he will use later on
-3) The Second question have to contain word Stromovka as it is the only park the chatbot knows
-4) In the third question you can ask on these topics: opening hours, playground, refreshments, food, dogs, biking, skating, toilet and attractions
-5) If you want to exit the chatbot just write 'end' or 'bye'
+1. After you write Lein run the chatbot will automatically start
+2. On the first chatbot's question you should answer just with your name, because this name he will use later on
+3. The Second question have to contain word Stromovka as it is the only park the chatbot knows
+4. In the third question you can ask on these topics: opening hours, playground, refreshments, food, dogs, biking, skating, toilet and attractions
+5. If you want to exit the chatbot just write 'end' or 'bye'
 
 ## Exemple of the output
 ```
