@@ -45,7 +45,7 @@
           (println "For" A ":" result))
         (if (= @counter (count (clojure.string/split (remove-punctuation line) #" ")))
           (if-not result
-            (println "Sorry, I have no information about it:" A))))
+            (println "no" A))))
       (swap! counter inc))))
 
 (defn -main [& args]
