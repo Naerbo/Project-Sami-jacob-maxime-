@@ -4,14 +4,13 @@
 ; data
 
 (def stromovka {"hours" "Open all year around"
-                "playground" "Yes"
-                "refreshments" "Yes"
+                "playground" "yes there are playground allowed to play"
+                "refreshments" "yes there are refreshments nearby"
                 "food" "No"
-                "dogs" "Yes"
-                "restaurant" "Yes"
-                "biking" "Yes"
-                "skating" "Yes"
-                "toilet" "Yes"
+                "dogs" "yes pets are allowed at the park"
+                "biking" "yes biking is allowed"
+                "skating" "yes skating is allowed"
+                "toilet" "yes there are public toilet"
                 "attractions" "zoo, botanical gardens, natural attractions, planetarium, exhibition grounds"})
 
 (def parks{"stromovka" stromovka})
@@ -43,7 +42,7 @@
     (doseq [A (clojure.string/split (remove-punctuation line) #" ")]
       (let [result (park A)]
         (if result
-          (println "Yes, I have information about" A "! It's: " result))
+          (println "For" A ":" result))
         (if (= @counter (count (clojure.string/split (remove-punctuation line) #" ")))
           (if-not result
             (println "Sorry, I have no information about it:" A))))
