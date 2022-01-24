@@ -84,15 +84,15 @@
     1 (println "You probably saw an owl!")))
 
 (defn direction-tree []
-  (case (first (prompt-with-numbers "Where do you want to go?" "North" "East" "South" "West"))
-    0 (println "Here's what's to the north...")
-    1 (println "Here's what's to the east...")
-    2 (println "Here's what's to the south...")
-    3 (println "Here's what's to the west...")))
+  (case (first (prompt-with-numbers "Where do you want to go?" "North" "East" "South"))
+    0 (println "You can get out by the north")
+    1 (println "There is refrheshment in the East")
+    2 (println "there is the zoo in the South")
+    
 
 (defn -main []
   (while :forever
     (case (first (prompt-with-numbers "What do you need information about?" "birds" "directions" "quit"))
       0 (bird-tree)
-      1 (direction-tree)
+      1 (Stromovka)
       2 (System/exit 0))))
