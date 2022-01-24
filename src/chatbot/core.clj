@@ -59,3 +59,40 @@
 ; parsing user input and providing them with answers
   (parsing-questions (select-park parks)))
 
+
+(ns chatbot.core)
+(defn prompt-with-numbers
+  [msg & selectables]
+  (when-not selectables
+    (throw (Exception. "You need selectables")))
+  (let [rng (range (count selectables))
+        mp (zipmap rng selectables)
+        prompt (format "%s%n%s"
+                       msg
+                       (apply str (for [[k v] mp]
+                                    (format "[%d] %s%n" k v))))
+        response (try (Integer/parseInt (do (println prompt)
+                                            (read-line)))
+                      (catch Exception e))]
+    (if (contains? mp response)
+      (first {response (mp response)})
+      (recur msg selectables))))
+
+(defn bird-tree []
+  (case (first (prompt-with-numbers "What color are the birds feathers?" "Black" "White"))
+    0 (println "You probably saw a raven!")
+    1 (println "You probably saw an owl!")))
+
+(defn direction-tree []
+  (case (first (prompt-with-numbers "Where do you want to go?" "North" "East" "South" "West"))
+    0 (println "Here's what's to the north...")
+    1 (println "Here's what's to the east...")
+    2 (println "Here's what's to the south...")
+    3 (println "Here's what's to the west...")))
+
+(defn -main []
+  (while :forever
+    (case (first (prompt-with-numbers "What do you need information about?" "birds" "directions" "quit"))
+      0 (bird-tree)
+      1 (direction-tree)
+      2 (System/exit 0))))
