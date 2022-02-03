@@ -21,8 +21,7 @@ We have used clojure to write this chatbot and you need to install theses compon
 
 Maxim
 
-> Welcome back  Maxim ! How are you?
-> I've information about Stromovka.
+> Which park do you want information about? I've information about parks in Prague
 
 Stromovka
 
